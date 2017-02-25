@@ -23,16 +23,15 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp">
 
-            <EditText
+            <TextView
+                android:text="TextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Welcome Application"
-                android:ems="10"
-                android:id="@+id/editText4"
-                android:textSize="30sp"
-                android:gravity="center_vertical|center_horizontal"
-                android:layout_weight="1" />
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                tools:text="Welcome Application"
+                android:gravity="center_horizontal"
+                android:textSize="30sp" />
 
         </LinearLayout>
 
@@ -48,19 +47,21 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp">
 
-                <ImageView
+                <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/newspaper1"
-                    android:id="@+id/imageView2"
-                    android:layout_weight="1" />
+                    android:id="@+id/imageButton"
+                    android:layout_weight="1"
+                    android:background="#00ffffff" />
 
-                <ImageView
+                <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/file"
-                    android:id="@+id/imageView5"
-                    android:layout_weight="1" />
+                    android:id="@+id/imageButton2"
+                    android:layout_weight="1"
+                    android:background="#00ffffff" />
 
             </LinearLayout>
 
@@ -70,19 +71,47 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp">
 
-                <ImageView
+                <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/file3"
-                    android:id="@+id/imageView8"
-                    android:layout_weight="1" />
+                    android:id="@+id/imageButton3"
+                    android:layout_weight="1"
+                    android:background="#00ffffff" />
 
-                <ImageView
+                <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/file2"
-                    android:id="@+id/imageView7"
-                    android:layout_weight="1" />
+                    android:id="@+id/imageButton4"
+                    android:layout_weight="1"
+                    android:background="#00ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/user2"
+                    android:id="@+id/imageButton16"
+                    android:layout_weight="1"
+                    android:background="#00ffffff" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/logout"
+                    android:id="@+id/imageButton12"
+                    android:layout_weight="1"
+                    android:background="#00ffffff" />
+
             </LinearLayout>
 
         </LinearLayout>
